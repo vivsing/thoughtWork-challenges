@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * Maps the key to the actual value
+ * 
+ * @author viveksingh
+ */
 public final class BuildFromPattern {
 	
 	private Map<Object, Object> _isAMapper = new HashMap<Object, Object>();
