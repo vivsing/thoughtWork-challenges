@@ -1,0 +1,35 @@
+{
+	"ROMAN_TO_NUMERAL_MAPPER" :
+	{
+		"I" : 1,
+		"V" : 5,
+		"X" : 10,
+		"L" : 50,
+		"C" : 100,
+		"D" : 500,
+		"M" : 1000
+	},
+	
+	"ROMANS_SUBTRACTION_POLICY" :
+	{
+		"I" : [ "V", "X" ],
+		"X" : [ "L", "C" ],
+		"C" : [ "D", "M" ],
+		"V" : [ ],
+		"L" : [ ],
+		"D" : [ ]
+	},
+	
+	"MAX_REPETITION_ALLOWED" :
+	{
+		"I" : 3,
+		"X" : 3,
+		"C" : 3,
+		"M" : 3,
+		"D" : 0,
+		"L" : 0,
+		"V" : 0
+	},
+	
+	"unknowQuestionAnswer" : "I don't know what you are talking about"
+}

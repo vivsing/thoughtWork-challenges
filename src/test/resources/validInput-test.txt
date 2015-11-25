@@ -1,0 +1,14 @@
+trot is M
+glob is I
+prok is V
+pish is X
+tegj is L
+grot is C
+bleek is D
+grot bleek glob prok Silver is 7676 Credits
+grot trot grot bleek Gold is 18200 Credits
+pish tegj glob pish Iron is 735 Credits
+how much is trot grot trot pish tegj glob prok ?
+how many Credits is glob prok trot Silver ?
+how many Credits is glob prok pish tegj Gold ?
+how many Credits is glob prok bleek Iron ?
