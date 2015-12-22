@@ -23,13 +23,17 @@ public final class ConversionRuleParser {
 	
 	private GalaxyRules _galaxyRules;
 	
-	public static final ConversionRuleParser getInstance() {
+	public static final ConversionRuleParser getInstance(String _jsonFileName) {
 		try {
-			initialize("galaxy-rules.json");
+			initialize(_jsonFileName);
 		} catch (ApplicationLevelException _appException) {
 			LOGGER.error(_appException.getMessage());
 		}
 		return _MAPPER_INSTANCE;
+	}
+	
+	public static final ConversionRuleParser getInstance() {
+		return getInstance("galaxy-rules.json");		
 	}
 	
 	private static void initialize(String _fileName) throws ApplicationLevelException {

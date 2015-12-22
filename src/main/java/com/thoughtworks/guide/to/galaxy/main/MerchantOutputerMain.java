@@ -58,8 +58,6 @@ public class MerchantOutputerMain {
 			
 		} catch (ApplicationLevelException _appException) {
 			LOGGER.error(_appException.getMessage());
-		} finally {
-			
 		}
 	}
 	

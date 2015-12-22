@@ -1,0 +1,8 @@
+{
+	"EXEMPTED_PRODUCTS" :
+	{
+		"BOOKS" : [ "book", "Periodicals" ],
+		"FOODS" : [ "Chocolate" ],
+		"MEDICINE" : [ "Pills" ] 
+	}
+}

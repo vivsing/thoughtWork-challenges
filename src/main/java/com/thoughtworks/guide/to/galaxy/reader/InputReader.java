@@ -8,9 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import com.thoughtworks.guide.to.galaxy.errorcode.ErrorCode;
 import com.thoughtworks.guide.to.galaxy.exceptions.ApplicationLevelException;
-import com.thoughtworks.guide.to.galaxy.input.parser.ParseInputFromStream;
-import com.thoughtworks.guide.to.galaxy.rules.ConversionRuleParser;
-import com.thoughtworks.guide.to.galaxy.service.interfaces.Parser;
 /**
  * Read the input file to extract the rules and questions
  * 
